@@ -1,0 +1,40 @@
+.task-card {
+  /* border:1px solid red; */
+  width: 100%;
+  max-width: 400px;
+  min-height:40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  background: radial-gradient(circle at top, #9bebb4, #c9f1a9);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.task-content,
+.task-card-input {
+  flex: 1;
+  margin-left: 10px;
+  color: rgb(129, 37, 37);
+  font-size: medium;
+}
+
+.task-content {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: normal;
+  word-break: break-all;
+}
+.task-card-input {
+  border: none;
+  height: 40px;
+}
+
+.task-card-input:focus {
+  outline: none;
+}
+
+.task-icons {
+  margin-left: 5px;
+}
